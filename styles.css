@@ -1,0 +1,139 @@
+html{
+    background-color:#f7f7f7;
+}
+body{
+    background-color:white;
+    font-family: 'Lobster', cursive;
+ margin:0 auto;
+}
+header,footer{
+    background-color:black;
+    color:white;
+    padding:10px;
+
+}
+#position{
+    position:relative;
+    left:250%;
+}
+
+
+.product{
+    border: 1px solid grey;
+    box-sizing:border-box;
+    width: 200px;
+    margin:5px;
+    padding:10px;
+    text-align:center;
+    display:inline-block;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+a:hover{
+    color:#0e69e9
+}
+p:first-of-type{
+    color:red;
+}
+main{
+    width:680px;
+    display:inline-block;
+    padding:10px;
+    }
+    aside{
+        width:450px;
+        display:inline-block;
+        vertical-align:top;
+        padding:10px;
+    }
+    .button{
+        padding:10px;
+         }
+         .button:last-of-type{
+             background-color:#0e69e9;
+             color:white;
+         }
+         .product-detail{
+             width: 660px;
+         }
+        .product-detail{
+            width:660px;
+            
+        }
+        .product-detail img{
+            max-width:50%;
+           float:left;
+            padding:10px
+        }
+        .item1{
+            
+            
+
+        }
+         
+img{
+    max-width: 100%;
+    border:1px solid grey;
+
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: circle inside;
+    line-height:30px;
+}
+header li{
+    display:inline;
+}
+header h1,nav{
+display: inline-block;
+}
+/*contact us*/
+form{
+    padding:10px;
+    margin:10px 0;
+    width:660px;
+}
+.inline label{
+    display:inline-block;
+    width:100px;
+}
+form> div{
+    margin:10px;
+}
+input[type="text"],input[type="email"],textarea
+{
+    padding:10px;
+    width:400px;
+    }
+    /* tABLE */
+  table{
+ width:400px;
+ text-align:left;
+ padding:10px;
+  }
+h1{
+    color:red;
+  }
+    h1{
+      color:purple;
+  }
+  caption{
+      border-bottom: 1px dotted;
+  }
+  th,td{
+    padding:10px;
+  }
+  tr:hover{
+      background-color:#f5f5f5;
+  }
+    @media (min-width:600px){
+        body{
+        background-color:powderblue;
+    }
+}
